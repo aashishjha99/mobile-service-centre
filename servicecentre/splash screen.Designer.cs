@@ -30,6 +30,7 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(splash));
             this.ProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -60,7 +61,7 @@ namespace WindowsFormsApp1
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(125)))), ((int)(((byte)(142)))));
             this.label1.Location = new System.Drawing.Point(133, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(621, 54);
+            this.label1.Size = new System.Drawing.Size(642, 55);
             this.label1.TabIndex = 1;
             this.label1.Text = "MOBILE SERVICE CENTRE";
             // 
@@ -77,6 +78,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ProgressBar1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

@@ -45,9 +45,9 @@ namespace WindowsFormsApp1.uc_
         {
             query = "select *from servicecentrelogin where username = '" + userNameLabel.Text + "'";
             DataSet ds = fn.GetData(query);
-            name.Text = ds.Tables[0].Rows[0][3].ToString();
-            mobileno.Text = ds.Tables[0].Rows[0][6].ToString();
-            address.Text = ds.Tables[0].Rows[0][8].ToString();
+            name.Text = ds.Tables[0].Rows[0][8].ToString();
+            mobileno.Text = ds.Tables[0].Rows[0][5].ToString();
+            address.Text = ds.Tables[0].Rows[0][6].ToString();
             password.Text = ds.Tables[0].Rows[0][2].ToString();
         }
     }

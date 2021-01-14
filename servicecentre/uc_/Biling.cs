@@ -26,16 +26,18 @@ namespace WindowsFormsApp1.uc_
         {
             string employeeid = txtemployee.Text;
             string description = txtdiscript.Text;
-            string brandid = txtbrandid.Text;
-            string brandname = txtmodel.Text;
+            string brand = txtbrandname.Text;
+            string modelname = txtmodel.Text;
             string type = txttype.Text;
             Int64 cost = Int64.Parse(txtcost.Text);
             string date = DateTime.Now.ToString("M/d/yyyy");
             string serviceid = txtserviceid.Text;
+            string insurance = txtinsurance.Text;
+            Int64 imei = Int64.Parse(txtimeino.Text);
             try
             {
 
-                query = " insert into repairdetails (brandid,brandname,type,description,employeeid,serviceid,dateofdelievery,cost) values('" + brandid + "','"+brandname+"','" +type+ "','" +description+ "','" + employeeid+ "','" +serviceid+ "','" + date + "'," + cost + ")";
+                query = " insert into repairdetails (employeeid,details,brandname,type,dateofdelievery,modelname,cost,INSURANCE,serviceid,imeino) values('"+employeeid+ "','"+description+"','" +brand+ "','" +type+ "','" +date+ "','"+modelname+"'," +cost+",'" +insurance+ "','" +serviceid+"',"+imei+")";
                 fn.setData(query, "Repaired And Delievred");
                 clearall();
 
@@ -52,10 +54,11 @@ namespace WindowsFormsApp1.uc_
         {
             txtserviceid.ResetText();
             txtdiscript.ResetText();
-            txtbrandid.ResetText();
+            txtbrandname.ResetText();
             txtmodel.ResetText();
             txttype.ResetText();
             txtcost.ResetText();
+            txtimeino.ResetText();
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -65,29 +68,36 @@ namespace WindowsFormsApp1.uc_
 
         private void txtserviceid_TextChanged(object sender, EventArgs e)
         {
-            MyMethod();
+            
         }
         void MyMethod()
         {
-            if (txtserviceid == null) return;
-
-            if (String.IsNullOrEmpty(txtserviceid.Text)) return;
-
-            string service = Convert.ToString(txtserviceid.Text);
-            query = "select *from customer where serviceid = '" + service + "' ";
-            DataSet ds = fn.GetData(query);
-            if (ds.Tables[0].Rows.Count > 0)
+            if (txtserviceid.Text != "")
             {
-                txtbrandid.Text = ds.Tables[0].Rows[0][1].ToString();
-                txtmodel.Text = ds.Tables[0].Rows[0][2].ToString();
-                txttype.Text = ds.Tables[0].Rows[0][3].ToString();
+                query = "select brandname,modelname,brandtype,imeino from customer where serviceid ='"+txtserviceid.Text+"'";
+                 DataSet ds =fn.GetData(query);
+                
+                if(ds.Tables[0].Rows.Count !=0)
+                {
+                    txtbrandname.Text = ds.Tables[0].Rows[0][0].ToString();
+                    txtmodel.Text = ds.Tables[0].Rows[0][1].ToString();
+                    txtimeino.Text = ds.Tables[0].Rows[0][3].ToString();
+                    txttype.Text = ds.Tables[0].Rows[0][2].ToString();
 
+                }
+                else
+                {
+                    MessageBox.Show("database error", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-            else
-            {
-               // MessageBox.Show("database error", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+
             
+            
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            MyMethod();
         }
     }
 }

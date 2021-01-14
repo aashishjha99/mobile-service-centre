@@ -45,10 +45,10 @@ namespace WindowsFormsApp1.uc_
             // 
             this.wishes.AutoSize = true;
             this.wishes.BackColor = System.Drawing.Color.Transparent;
-            this.wishes.Font = new System.Drawing.Font("Microsoft YaHei UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wishes.Location = new System.Drawing.Point(14, 25);
+            this.wishes.Font = new System.Drawing.Font("Consolas", 28.2F);
+            this.wishes.Location = new System.Drawing.Point(14, 19);
             this.wishes.Name = "wishes";
-            this.wishes.Size = new System.Drawing.Size(346, 50);
+            this.wishes.Size = new System.Drawing.Size(336, 56);
             this.wishes.TabIndex = 0;
             this.wishes.Text = "GOOD MORNING";
             // 
@@ -57,7 +57,7 @@ namespace WindowsFormsApp1.uc_
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(32, 86);
+            this.label1.Location = new System.Drawing.Point(30, 85);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 41);
             this.label1.TabIndex = 1;

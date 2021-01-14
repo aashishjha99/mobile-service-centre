@@ -21,7 +21,7 @@ namespace WindowsFormsApp1.uc_
 
         private void txtsearch_TextChanged(object sender, EventArgs e)
         {
-            query = "SELECT  customer.name,customer.brandid,customer.brandname,customer.customerid,repairdetails.serviceid,repairdetails.description FROM customer  LEFT JOIN repairdetails ON customer.serviceid = repairdetails.serviceid where customer.serviceid = '" + txtsearch.Text + "'";
+            query = "SELECT  customer.name,customer.brandname,customer.modelname,customer.imeino,repairdetails.serviceid,repairdetails.details FROM customer  LEFT JOIN repairdetails ON customer.serviceid = repairdetails.serviceid where customer.serviceid = '" + txtsearch.Text + "'";
             setdatgridview(query);
         }
 
@@ -33,7 +33,8 @@ namespace WindowsFormsApp1.uc_
             }
         }
 
-        private void guna2TileButton2_Click(object sender, EventArgs e)
+        //DELETE STATEMEMT
+       /*private void guna2TileButton2_Click(object sender, EventArgs e) 
         {
             try
             {
@@ -46,11 +47,11 @@ namespace WindowsFormsApp1.uc_
             {
                 MessageBox.Show("deleted", "delete confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-        }
+       } */
 
         internal void viewdtad()
         {
-            query = "select id,employeeid,serviceid,dateofdelievery,brandid,type,cost,brandname from repairdetails";
+            query = "select *from repairdetails";
             setdatgridview(query);
         }
         private void setdatgridview(string query)
@@ -71,8 +72,13 @@ namespace WindowsFormsApp1.uc_
 
         private void txtname_TextChanged(object sender, EventArgs e)
         {
-            query = "SELECT  customer.name,customer.brandid,customer.brandname,customer.customerid,repairdetails.serviceid,repairdetails.description FROM customer  LEFT JOIN repairdetails ON customer.serviceid = repairdetails.serviceid where customer.serviceid = '" + txtname.Text + "'";
+            query = "SELECT  customer.name,customer.imeino,customer.brandname,repairdetails.serviceid,repairdetails.details FROM customer  LEFT JOIN repairdetails ON customer.serviceid = repairdetails.serviceid where customer.name = '" + txtname.Text + "'";
             setdatgridview(query);
+        }
+
+        private void totalservices_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

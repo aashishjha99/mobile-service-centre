@@ -85,8 +85,8 @@ namespace WindowsFormsApp1
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            deletedcustomer1.Visible = true;
-            deletedcustomer1.BringToFront();
+            record1.Visible = true;
+            record1.BringToFront();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
@@ -100,6 +100,18 @@ namespace WindowsFormsApp1
             this.Hide();
             adminloginscreen obj = new adminloginscreen();
             obj.Show();
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            mobile1.Visible = true;
+            mobile1.BringToFront();
+        }
+
+        private void guna2Button4_Click_1(object sender, EventArgs e)
+        {
+            modelnameregisteration1.Visible = true;
+            modelnameregisteration1.BringToFront();
         }
     }
 }

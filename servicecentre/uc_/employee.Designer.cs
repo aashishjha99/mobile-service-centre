@@ -60,87 +60,87 @@ namespace WindowsFormsApp1.uc_
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Constantia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(19, 17);
+            this.label1.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(16, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 49);
+            this.label1.Size = new System.Drawing.Size(306, 47);
             this.label1.TabIndex = 0;
             this.label1.Text = "Registeration";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Maroon;
-            this.label2.Location = new System.Drawing.Point(21, 95);
+            this.label2.Location = new System.Drawing.Point(21, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 35);
+            this.label2.Size = new System.Drawing.Size(57, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Role";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Maroon;
-            this.label3.Location = new System.Drawing.Point(21, 220);
+            this.label3.Location = new System.Drawing.Point(23, 166);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 35);
+            this.label3.Size = new System.Drawing.Size(72, 29);
             this.label3.TabIndex = 2;
             this.label3.Text = "Name";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Maroon;
-            this.label4.Location = new System.Drawing.Point(21, 369);
+            this.label4.Location = new System.Drawing.Point(23, 313);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 35);
+            this.label4.Size = new System.Drawing.Size(46, 29);
             this.label4.TabIndex = 3;
             this.label4.Text = "Sex";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Maroon;
-            this.label5.Location = new System.Drawing.Point(21, 516);
+            this.label5.Location = new System.Drawing.Point(19, 479);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 35);
+            this.label5.Size = new System.Drawing.Size(118, 29);
             this.label5.TabIndex = 4;
             this.label5.Text = "Mobile No";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Maroon;
-            this.label6.Location = new System.Drawing.Point(483, 12);
+            this.label6.Location = new System.Drawing.Point(436, 53);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 35);
+            this.label6.Size = new System.Drawing.Size(91, 29);
             this.label6.TabIndex = 5;
             this.label6.Text = "Address";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Maroon;
-            this.label7.Location = new System.Drawing.Point(436, 313);
+            this.label7.Location = new System.Drawing.Point(407, 375);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(132, 35);
+            this.label7.Size = new System.Drawing.Size(113, 29);
             this.label7.TabIndex = 6;
             this.label7.Text = "Username";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Maroon;
-            this.label8.Location = new System.Drawing.Point(436, 438);
+            this.label8.Location = new System.Drawing.Point(413, 447);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(123, 35);
+            this.label8.Size = new System.Drawing.Size(105, 29);
             this.label8.TabIndex = 7;
             this.label8.Text = "Password";
             // 
@@ -163,10 +163,10 @@ namespace WindowsFormsApp1.uc_
             "employee",
             "admin"});
             this.txtrole.ItemsAppearance.Parent = this.txtrole;
-            this.txtrole.Location = new System.Drawing.Point(28, 157);
+            this.txtrole.Location = new System.Drawing.Point(86, 96);
             this.txtrole.Name = "txtrole";
             this.txtrole.ShadowDecoration.Parent = this.txtrole;
-            this.txtrole.Size = new System.Drawing.Size(254, 36);
+            this.txtrole.Size = new System.Drawing.Size(190, 36);
             this.txtrole.TabIndex = 17;
             // 
             // txtname
@@ -185,7 +185,7 @@ namespace WindowsFormsApp1.uc_
             this.txtname.FocusedState.Parent = this.txtname;
             this.txtname.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtname.HoverState.Parent = this.txtname;
-            this.txtname.Location = new System.Drawing.Point(28, 267);
+            this.txtname.Location = new System.Drawing.Point(28, 214);
             this.txtname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtname.Name = "txtname";
             this.txtname.PasswordChar = '\0';
@@ -215,20 +215,20 @@ namespace WindowsFormsApp1.uc_
             "Female",
             "Other"});
             this.txtsex.ItemsAppearance.Parent = this.txtsex;
-            this.txtsex.Location = new System.Drawing.Point(86, 370);
+            this.txtsex.Location = new System.Drawing.Point(86, 311);
             this.txtsex.Name = "txtsex";
             this.txtsex.ShadowDecoration.Parent = this.txtsex;
-            this.txtsex.Size = new System.Drawing.Size(130, 36);
+            this.txtsex.Size = new System.Drawing.Size(112, 36);
             this.txtsex.TabIndex = 19;
             // 
             // txtaddress
             // 
             this.txtaddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtaddress.Location = new System.Drawing.Point(481, 57);
+            this.txtaddress.Location = new System.Drawing.Point(441, 96);
             this.txtaddress.Multiline = true;
             this.txtaddress.Name = "txtaddress";
             this.txtaddress.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtaddress.Size = new System.Drawing.Size(315, 123);
+            this.txtaddress.Size = new System.Drawing.Size(315, 95);
             this.txtaddress.TabIndex = 21;
             // 
             // txtusername
@@ -247,7 +247,7 @@ namespace WindowsFormsApp1.uc_
             this.txtusername.FocusedState.Parent = this.txtusername;
             this.txtusername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtusername.HoverState.Parent = this.txtusername;
-            this.txtusername.Location = new System.Drawing.Point(440, 369);
+            this.txtusername.Location = new System.Drawing.Point(531, 369);
             this.txtusername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtusername.Name = "txtusername";
             this.txtusername.PasswordChar = '\0';
@@ -274,7 +274,7 @@ namespace WindowsFormsApp1.uc_
             this.txtpassword.FocusedState.Parent = this.txtpassword;
             this.txtpassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtpassword.HoverState.Parent = this.txtpassword;
-            this.txtpassword.Location = new System.Drawing.Point(440, 479);
+            this.txtpassword.Location = new System.Drawing.Point(531, 447);
             this.txtpassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.PasswordChar = '\0';
@@ -320,7 +320,7 @@ namespace WindowsFormsApp1.uc_
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(728, 369);
+            this.pictureBox1.Location = new System.Drawing.Point(807, 369);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(50, 44);
             this.pictureBox1.TabIndex = 26;
@@ -329,11 +329,11 @@ namespace WindowsFormsApp1.uc_
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Maroon;
-            this.label9.Location = new System.Drawing.Point(21, 451);
+            this.label9.Location = new System.Drawing.Point(21, 413);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(66, 35);
+            this.label9.Size = new System.Drawing.Size(57, 29);
             this.label9.TabIndex = 27;
             this.label9.Text = "DOB";
             // 
@@ -342,12 +342,12 @@ namespace WindowsFormsApp1.uc_
             this.txtdob.CheckedState.Parent = this.txtdob;
             this.txtdob.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.txtdob.HoverState.Parent = this.txtdob;
-            this.txtdob.Location = new System.Drawing.Point(108, 452);
+            this.txtdob.Location = new System.Drawing.Point(105, 410);
             this.txtdob.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.txtdob.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.txtdob.Name = "txtdob";
             this.txtdob.ShadowDecoration.Parent = this.txtdob;
-            this.txtdob.Size = new System.Drawing.Size(200, 36);
+            this.txtdob.Size = new System.Drawing.Size(157, 36);
             this.txtdob.TabIndex = 28;
             this.txtdob.Value = new System.DateTime(2021, 1, 9, 16, 2, 52, 959);
             // 
@@ -367,14 +367,14 @@ namespace WindowsFormsApp1.uc_
             this.txtcontact.FocusedState.Parent = this.txtcontact;
             this.txtcontact.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtcontact.HoverState.Parent = this.txtcontact;
-            this.txtcontact.Location = new System.Drawing.Point(28, 557);
+            this.txtcontact.Location = new System.Drawing.Point(24, 526);
             this.txtcontact.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtcontact.Name = "txtcontact";
             this.txtcontact.PasswordChar = '\0';
             this.txtcontact.PlaceholderText = "";
             this.txtcontact.SelectedText = "";
             this.txtcontact.ShadowDecoration.Parent = this.txtcontact;
-            this.txtcontact.Size = new System.Drawing.Size(294, 44);
+            this.txtcontact.Size = new System.Drawing.Size(252, 44);
             this.txtcontact.TabIndex = 29;
             // 
             // txtmail
@@ -393,24 +393,24 @@ namespace WindowsFormsApp1.uc_
             this.txtmail.FocusedState.Parent = this.txtmail;
             this.txtmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtmail.HoverState.Parent = this.txtmail;
-            this.txtmail.Location = new System.Drawing.Point(547, 245);
+            this.txtmail.Location = new System.Drawing.Point(520, 238);
             this.txtmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtmail.Name = "txtmail";
             this.txtmail.PasswordChar = '\0';
             this.txtmail.PlaceholderText = "";
             this.txtmail.SelectedText = "";
             this.txtmail.ShadowDecoration.Parent = this.txtmail;
-            this.txtmail.Size = new System.Drawing.Size(263, 44);
+            this.txtmail.Size = new System.Drawing.Size(274, 44);
             this.txtmail.TabIndex = 30;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Maroon;
-            this.label10.Location = new System.Drawing.Point(436, 245);
+            this.label10.Location = new System.Drawing.Point(413, 244);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(94, 35);
+            this.label10.Size = new System.Drawing.Size(84, 29);
             this.label10.TabIndex = 31;
             this.label10.Text = "Mail ID";
             // 

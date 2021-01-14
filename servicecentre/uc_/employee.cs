@@ -28,8 +28,6 @@ namespace WindowsFormsApp1.uc_
                 pictureBox1.ImageLocation = @"B:\mini project\WindowsFormsApp1\WindowsFormsApp1\libraby\yes.png";
                 label11.Visible = true;
 
-
-
             }
             else
             {

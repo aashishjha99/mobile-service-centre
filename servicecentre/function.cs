@@ -44,6 +44,17 @@ namespace WindowsFormsApp1
             MessageBox.Show(msg, "information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        public SqlDataReader getForComboBox(string query)
+        {
+            SqlConnection con = GetConnection();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            con.Open();
+            cmd = new SqlCommand(query, con);
+            SqlDataReader sdr = cmd.ExecuteReader();
+            return sdr;
+        }
+
 
     }
 }

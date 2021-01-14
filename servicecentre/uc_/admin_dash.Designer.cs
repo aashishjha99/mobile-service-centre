@@ -41,6 +41,7 @@ namespace WindowsFormsApp1.uc_
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientCircleButton1 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2ColorTransition1 = new Guna.UI2.WinForms.Guna2ColorTransition(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
@@ -62,7 +63,7 @@ namespace WindowsFormsApp1.uc_
             this.guna2Panel1.BorderRadius = 40;
             this.guna2Panel1.BorderThickness = 2;
             this.guna2Panel1.Controls.Add(this.admin);
-            this.guna2Panel1.Location = new System.Drawing.Point(34, 68);
+            this.guna2Panel1.Location = new System.Drawing.Point(34, 98);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(356, 535);
@@ -87,7 +88,7 @@ namespace WindowsFormsApp1.uc_
             this.guna2Panel2.BorderRadius = 40;
             this.guna2Panel2.BorderThickness = 2;
             this.guna2Panel2.Controls.Add(this.employee);
-            this.guna2Panel2.Location = new System.Drawing.Point(423, 75);
+            this.guna2Panel2.Location = new System.Drawing.Point(423, 96);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(356, 530);
@@ -140,11 +141,22 @@ namespace WindowsFormsApp1.uc_
         System.Drawing.Color.Blue,
         System.Drawing.Color.Orange};
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(58, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(218, 47);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Dashboard";
+            // 
             // admin_dash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2GradientCircleButton1);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
@@ -154,6 +166,7 @@ namespace WindowsFormsApp1.uc_
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -169,5 +182,6 @@ namespace WindowsFormsApp1.uc_
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton1;
         private Guna.UI2.WinForms.Guna2ColorTransition guna2ColorTransition1;
+        private System.Windows.Forms.Label label1;
     }
 }

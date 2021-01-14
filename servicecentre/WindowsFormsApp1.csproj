@@ -106,11 +106,6 @@
     <Compile Include="adminloginscreen.Designer.cs">
       <DependentUpon>adminloginscreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="function.cs" />
     <Compile Include="servicecentrebody.cs">
       <SubType>Form</SubType>
@@ -156,11 +151,23 @@
     <Compile Include="uc_\dash.Designer.cs">
       <DependentUpon>dash.cs</DependentUpon>
     </Compile>
-    <Compile Include="uc_\deletedcustomer.cs">
+    <Compile Include="uc_\record.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="uc_\deletedcustomer.Designer.cs">
-      <DependentUpon>deletedcustomer.cs</DependentUpon>
+    <Compile Include="uc_\record.Designer.cs">
+      <DependentUpon>record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_\mobile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_\mobile.Designer.cs">
+      <DependentUpon>mobile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_\modelnameregisteration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_\modelnameregisteration.Designer.cs">
+      <DependentUpon>modelnameregisteration.cs</DependentUpon>
     </Compile>
     <Compile Include="uc_\profile_.cs">
       <SubType>UserControl</SubType>
@@ -228,8 +235,14 @@
     <EmbeddedResource Include="uc_\dash.resx">
       <DependentUpon>dash.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="uc_\deletedcustomer.resx">
-      <DependentUpon>deletedcustomer.cs</DependentUpon>
+    <EmbeddedResource Include="uc_\record.resx">
+      <DependentUpon>record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_\mobile.resx">
+      <DependentUpon>mobile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_\modelnameregisteration.resx">
+      <DependentUpon>modelnameregisteration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="uc_\profile_.resx">
       <DependentUpon>profile_.cs</DependentUpon>
@@ -247,17 +260,6 @@
       <DependentUpon>totalservices.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
-    <None Include="DataSet1.xsc">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="DataSet1.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DataSet1.xss">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -269,11 +271,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libraby\1.gif" />
-    <Content Include="libraby\2.gif" />
-    <Content Include="libraby\3322822.jpg" />
     <Content Include="libraby\96x96.gif" />
-    <Content Include="libraby\addemp1.png" />
+    <Content Include="libraby\add-smartphone.png" />
     <Content Include="libraby\addemployee.png" />
     <Content Include="libraby\admin.png" />
     <Content Include="libraby\adminpannel.jpg" />
@@ -283,45 +282,25 @@
     <Content Include="libraby\banner12.jpg" />
     <Content Include="libraby\bill.png" />
     <Content Include="libraby\billi1.png" />
-    <Content Include="libraby\Close.png" />
-    <Content Include="libraby\close3.png" />
-    <Content Include="libraby\COMPANY.jpg" />
-    <Content Include="libraby\COMPANY2.png" />
-    <Content Include="libraby\COMPANY3.jpg" />
-    <Content Include="libraby\COMPANY5.jpg" />
     <Content Include="libraby\computer-icons-clip-art-desktop-wallpaper-portable-network-graphics-vector-graphics-png-favpng-5e5Gi556qYSsXhKhfGWSxrTF2.jpg" />
     <Content Include="libraby\contactUs.png" />
     <Content Include="libraby\customer1.png" />
-    <Content Include="libraby\dashboard.jpg" />
-    <Content Include="libraby\dashboard8.png" />
     <Content Include="libraby\dashboardbanner.jpg" />
-    <Content Include="libraby\dashboard_final.gif" />
-    <Content Include="libraby\dashbord.png" />
     <Content Include="libraby\Data-View-Details-icon.png" />
     <Content Include="libraby\detailsdeleted.png" />
     <Content Include="libraby\DOCK.jpg" />
     <Content Include="libraby\emp.png" />
-    <Content Include="libraby\employee.png" />
+    <Content Include="libraby\emp234.png" />
     <Content Include="libraby\employeedash.jpg" />
     <Content Include="libraby\EMPLOYEEdash2.jpg" />
     <Content Include="libraby\FullBanner.png" />
     <Content Include="libraby\gear.gif" />
     <Content Include="libraby\geeek.png" />
-    <Content Include="libraby\good AFTERNOON.png" />
-    <Content Include="libraby\good EVENING.png" />
-    <Content Include="libraby\good morning.png" />
-    <Content Include="libraby\Great Loading Gears Animated Gifs.gif" />
+    <Content Include="libraby\.gif" />
     <Content Include="libraby\HalfBanner.png" />
     <Content Include="libraby\home.png" />
     <Content Include="libraby\home1.png" />
-    <Content Include="libraby\left.png" />
-    <Content Include="libraby\loader1.gif" />
-    <Content Include="libraby\loading.gif" />
     <Content Include="libraby\locklogin.png" />
-    <Content Include="libraby\login3.gif" />
-    <Content Include="libraby\loginillistration.jpg" />
-    <Content Include="libraby\LoginPicture.png" />
-    <Content Include="libraby\LogOut.png" />
     <Content Include="libraby\logout4.gif" />
     <Content Include="libraby\logoutfinal2.gif" />
     <Content Include="libraby\maintenance.png" />
@@ -347,13 +326,7 @@
     <Content Include="libraby\services_dK0_icon.ico" />
     <Content Include="libraby\Setting.png" />
     <Content Include="libraby\Settings-PNG-Picture.png" />
-    <Content Include="libraby\Settings.png" />
-    <Content Include="libraby\sign-sync-icon.png" />
-    <Content Include="libraby\signup_64px.png" />
     <Content Include="libraby\social.png" />
-    <Content Include="libraby\Status.png" />
-    <Content Include="libraby\sync.png" />
-    <Content Include="libraby\Table.jpg" />
     <Content Include="libraby\Tools.png" />
   </ItemGroup>
   <ItemGroup>

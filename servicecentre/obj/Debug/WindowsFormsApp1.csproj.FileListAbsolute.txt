@@ -30,6 +30,10 @@ B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_
 B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.admin_dash.resources
 B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.Biling.resources
 B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.dash.resources
+B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.record.resources
+B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.mobile.resources
+B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.modelnameregisteration.resources
+B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.profile_.resources
 B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.employee.resources
 B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.profile.resources
 B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.settings_.resources
@@ -39,6 +43,3 @@ B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csp
 B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
-B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.deletedcustomer.resources
-B:\mini project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.uc_.profile_.resources

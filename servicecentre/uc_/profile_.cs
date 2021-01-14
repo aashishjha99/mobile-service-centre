@@ -13,7 +13,7 @@ namespace WindowsFormsApp1.uc_
     {
         function fn = new function();
         string query;
-        DataSet ds;
+       
         public profile_()
         {
             InitializeComponent();
@@ -27,10 +27,10 @@ namespace WindowsFormsApp1.uc_
         {
             query = "select *from servicecentrelogin where username = '" + userNameLabel.Text + "'";
             DataSet ds = fn.GetData(query);
-            name.Text = ds.Tables[0].Rows[0][9].ToString();
-            mobileno.Text = ds.Tables[0].Rows[0][6].ToString();
-            address.Text = ds.Tables[0].Rows[0][7].ToString();
-            password.Text = ds.Tables[0].Rows[0][3].ToString();
+            name.Text = ds.Tables[0].Rows[0][8].ToString();
+            mobileno.Text = ds.Tables[0].Rows[0][5].ToString();
+            address.Text = ds.Tables[0].Rows[0][6].ToString();
+            password.Text = ds.Tables[0].Rows[0][2].ToString();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

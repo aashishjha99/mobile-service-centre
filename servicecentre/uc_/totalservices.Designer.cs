@@ -30,9 +30,9 @@ namespace WindowsFormsApp1.uc_
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.txtdatagrid = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -42,7 +42,6 @@ namespace WindowsFormsApp1.uc_
             this.txtsearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton2 = new Guna.UI2.WinForms.Guna2TileButton();
             ((System.ComponentModel.ISupportInitialize)(this.txtdatagrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,48 +54,48 @@ namespace WindowsFormsApp1.uc_
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Consolas", 28.2F);
             this.label1.Location = new System.Drawing.Point(21, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(295, 56);
+            this.label1.Size = new System.Drawing.Size(388, 56);
             this.label1.TabIndex = 1;
             this.label1.Text = "Total Services";
             // 
             // txtdatagrid
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
-            this.txtdatagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            this.txtdatagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.txtdatagrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.txtdatagrid.BackgroundColor = System.Drawing.Color.White;
             this.txtdatagrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtdatagrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.txtdatagrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.txtdatagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.txtdatagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.txtdatagrid.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.txtdatagrid.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.txtdatagrid.DefaultCellStyle = dataGridViewCellStyle6;
             this.txtdatagrid.EnableHeadersVisualStyles = false;
             this.txtdatagrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
-            this.txtdatagrid.Location = new System.Drawing.Point(17, 259);
+            this.txtdatagrid.Location = new System.Drawing.Point(0, 259);
             this.txtdatagrid.Name = "txtdatagrid";
             this.txtdatagrid.RowHeadersVisible = false;
             this.txtdatagrid.RowHeadersWidth = 30;
             this.txtdatagrid.RowTemplate.Height = 24;
             this.txtdatagrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.txtdatagrid.Size = new System.Drawing.Size(824, 333);
+            this.txtdatagrid.Size = new System.Drawing.Size(858, 333);
             this.txtdatagrid.TabIndex = 5;
             this.txtdatagrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Dark;
             this.txtdatagrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
@@ -108,7 +107,7 @@ namespace WindowsFormsApp1.uc_
             this.txtdatagrid.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
             this.txtdatagrid.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
             this.txtdatagrid.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.txtdatagrid.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.txtdatagrid.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdatagrid.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.txtdatagrid.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.txtdatagrid.ThemeStyle.HeaderStyle.Height = 4;
@@ -152,6 +151,7 @@ namespace WindowsFormsApp1.uc_
             this.txtname.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtname.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtname.FocusedState.Parent = this.txtname;
+            this.txtname.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtname.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtname.HoverState.Parent = this.txtname;
             this.txtname.Location = new System.Drawing.Point(563, 54);
@@ -180,6 +180,7 @@ namespace WindowsFormsApp1.uc_
             this.txtsearch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtsearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtsearch.FocusedState.Parent = this.txtsearch;
+            this.txtsearch.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtsearch.HoverState.Parent = this.txtsearch;
             this.txtsearch.Location = new System.Drawing.Point(564, 163);
@@ -222,29 +223,11 @@ namespace WindowsFormsApp1.uc_
             this.guna2TileButton1.Text = "SYNC";
             this.guna2TileButton1.Click += new System.EventHandler(this.guna2TileButton1_Click);
             // 
-            // guna2TileButton2
-            // 
-            this.guna2TileButton2.BorderRadius = 10;
-            this.guna2TileButton2.CheckedState.Parent = this.guna2TileButton2;
-            this.guna2TileButton2.CustomImages.Parent = this.guna2TileButton2;
-            this.guna2TileButton2.FillColor = System.Drawing.Color.DarkSalmon;
-            this.guna2TileButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton2.HoverState.Parent = this.guna2TileButton2;
-            this.guna2TileButton2.Location = new System.Drawing.Point(455, 622);
-            this.guna2TileButton2.Name = "guna2TileButton2";
-            this.guna2TileButton2.ShadowDecoration.Parent = this.guna2TileButton2;
-            this.guna2TileButton2.Size = new System.Drawing.Size(180, 45);
-            this.guna2TileButton2.TabIndex = 11;
-            this.guna2TileButton2.Text = "DELETE";
-            this.guna2TileButton2.Click += new System.EventHandler(this.guna2TileButton2_Click);
-            // 
             // totalservices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Controls.Add(this.guna2TileButton2);
             this.Controls.Add(this.guna2TileButton1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtsearch);
@@ -254,6 +237,7 @@ namespace WindowsFormsApp1.uc_
             this.Controls.Add(this.label1);
             this.Name = "totalservices";
             this.Size = new System.Drawing.Size(858, 685);
+            this.Load += new System.EventHandler(this.totalservices_Load);
             this.Enter += new System.EventHandler(this.totalservices_Enter);
             ((System.ComponentModel.ISupportInitialize)(this.txtdatagrid)).EndInit();
             this.ResumeLayout(false);
@@ -271,7 +255,6 @@ namespace WindowsFormsApp1.uc_
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2DataGridView txtdatagrid;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton2;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
     }
 }
